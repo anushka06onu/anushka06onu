@@ -29,11 +29,23 @@ I currently work across backend technologies including **Spring Boot, Laravel, F
 
 ## Featured projects
 
+### [RetinaGuard-QA](https://github.com/anushka06onu/RetinaGuard-QA)
+
+**Uncertainty-Aware Multi-Task Quality Assurance for Retinal Fundus Imaging**
+
+A DeepDRiD-focused research system with patient-isolated evaluation, three-seed experiments, controlled ablations, acquisition-quality feedback, and CPU ONNX inference. The committed campaign reports mean macro-F1 of 0.7446; this system evaluates image quality and does not diagnose disease.
+
+`PyTorch` `ONNX` `FastAPI` `React` `TypeScript`
+
+---
+
 ### [ResiliNet](https://github.com/anushka06onu/ResiliNet)
 
 **Explainable AI-Driven Network Digital Twin for Predictive QoS and Fault-Aware Routing**
 
 An SDN research prototype integrating Mininet/OVS telemetry, a Ryu monitoring controller, rolling link features, LightGBM and SHAP inference, risk-aware path calculation, FastAPI services, and an interactive React dashboard.
+
+Real comparative Mininet campaign results are pending; mock campaigns and constructed fixtures validate the pipeline only.
 
 `Python` `FastAPI` `LightGBM` `SHAP` `Mininet` `Open vSwitch` `Ryu` `React` `TypeScript`
 
@@ -43,13 +55,13 @@ An SDN research prototype integrating Mininet/OVS telemetry, a Ryu monitoring co
 
 **Predictive Cluster Intelligence for GPU Infrastructure**
 
-A full-stack system for analysing GPU-cluster telemetry, forecasting operational risk, detecting anomalies, and supporting proactive infrastructure decisions through explainable models, backend services, and an interactive monitoring interface.
+A full-stack research prototype using Alibaba PAI GPU trace data for workload failure-risk estimation, anomaly detection, explainable predictions, and offline placement recommendations. The dashboard replays historical data; current evaluation uses a random row-level holdout, with chronological and grouped validation still pending.
 
 `Python` `FastAPI` `Machine Learning` `LightGBM` `Explainability` `React` `TypeScript`
 
 ---
 
-### SCORE-BN
+### [SCORE-BN](https://github.com/anushka06onu/SCORE_BN)
 
 **Severity-Consistent and Cross-Script Robust Classification of Real-World Bangla Healthcare Queries**
 
@@ -63,7 +75,7 @@ A Bangla NLP research system exploring severity-aware classification, cross-scri
 
 **Parameter-Efficient Adaptation of Vision Foundation Models for Multi-Class Dental Radiograph Analysis**
 
-A computer-vision research project comparing DINOv2 with parameter-efficient adaptation against convolutional baselines. The experimental pipeline includes patient-separated evaluation, class-aware metrics, class-weighted learning, and visual model interpretation.
+An ongoing undergraduate research direction investigating parameter-efficient adaptation of vision foundation models for dental radiographs. Public code and reproducible experimental results are not linked here yet.
 
 `PyTorch` `DINOv2` `LoRA / PEFT` `ResNet` `Grad-CAM` `OpenCV` `scikit-learn`
 
